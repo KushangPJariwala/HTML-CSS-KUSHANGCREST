@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Carousel Component</title>
+
+    <link rel="stylesheet" href="a.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- <script>
+      
+    </script> -->
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="btn btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <button class="btn btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <button class="dot dot--fill">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
+      <div class="carousel-item show t1" id="one">
+        <img
+          src="https://wallpapercave.com/wp/wp2555019.jpg"
+          alt="Maria de Almeida"
+        />
+        <div class="testimonial">
+          <h2 style="color: white">(1)</h2>
+          <p class="testimonial-text">
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            nesciunt aliquid ex atque quibusdam. Rerum officia unde suscipit quo
+            sunt hic illo fugit."
+          </p>
+          <p class="testimonial-author">Maria de Almeida</p>
+          <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+        </div>
+      </div>
+      <div class="carousel-item t2" id="two">
+        <img
+          src="https://th.bing.com/th/id/OIP.w_iFpsxEL4cAesWr0Pnu4gHaHX?rs=1&pid=ImgDetMain"
+          alt="Maria de Almeida"
+        />
+        <blockquote class="testimonial">
+          <h2 style="color: white">(2)</h2>
+          <p class="testimonial-text">
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            nesciunt aliquid ex atque quibusdam. Rerum officia unde suscipit quo
+            sunt hic illo fugit."
+          </p>
+          <p class="testimonial-author">Maria de Almeida</p>
+          <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+        </blockquote>
+      </div>
+      <div class="carousel-item t3" id="three">
+        <img
+          src="https://th.bing.com/th/id/OIP.w_iFpsxEL4cAesWr0Pnu4gHaHX?rs=1&pid=ImgDetMain"
+          alt="Maria de Almeida"
+        />
+        <blockquote class="testimonial">
+          <h2 style="color: white">(3)</h2>
+          <p class="testimonial-text">
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            nesciunt aliquid ex atque quibusdam. Rerum officia unde suscipit quo
+            sunt hic illo fugit."
+          </p>
+          <p class="testimonial-author">Maria de Almeida</p>
+          <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+        </blockquote>
+      </div>
+    </div>
+  </body>
+
+  <script src="a.js"></script>
+</html>
